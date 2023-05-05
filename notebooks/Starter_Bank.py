@@ -59,7 +59,7 @@ ConfusionMatrixDisplay.from_estimator(
 # %%
 from imblearn.over_sampling import RandomOverSampler
 ro = RandomOverSampler()
-features = ['euribor3m', 'emp.var.rate', 'nr.employed', 'cons.price.idx']
+features = ['euribor3m', 'nr.employed', 'emp.var.rate', 'cons.price.idx',]
 X = campaign[features]
 y = campaign['y']
 
@@ -93,4 +93,10 @@ ConfusionMatrixDisplay.from_estimator(
         cmap=plt.cm.Blues
     )
 
+# %%
+from sklearn import metrics
+predictions = clf.predict(x_test)
+print(metrics.confusion_matrix(y_test, predictions))
+from sklearn.metrics import classification_report
+print(classification_report(y_test,predictions))
 # %%
