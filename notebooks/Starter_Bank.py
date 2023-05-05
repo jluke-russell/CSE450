@@ -24,6 +24,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import tree
 #from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
 from sklearn import metrics
 from sklearn.metrics import accuracy_score
 #clf = KNeighborsClassifier(n_neighbors=3)
@@ -37,7 +38,7 @@ x_train, x_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, rando
 #accuracy_score(y_test, pred) #0.885
 
 # Build the decision tree
-clf = DecisionTreeClassifier(max_depth=4)
+clf = DecisionTreeClassifier()
 
 # Train it
 clf.fit(x_train, y_train)
@@ -55,4 +56,41 @@ ConfusionMatrixDisplay.from_estimator(
         cmap=plt.cm.Blues
     )
 
-#%%
+# %%
+from imblearn.over_sampling import RandomOverSampler
+ro = RandomOverSampler()
+features = ['euribor3m', 'emp.var.rate', 'nr.employed', 'cons.price.idx']
+X = campaign[features]
+y = campaign['y']
+
+# Oversample, note that we oversample X and y at the same time in order to 
+# make sure our features and targets stay synched.
+X_new, y_new = ro.fit_resample(X, y)
+
+# Convert this to a dataframe and check the counts, now they're equal, because
+# we have a bunch of duplicate survivors
+customer = pd.DataFrame(y_new)
+customer.value_counts()
+
+
+# %%
+x_train, x_test, y_train, y_test = train_test_split(X_new, y_new, test_size = 0.2, random_state = 420)
+# Build the decision tree
+clf = DecisionTreeClassifier()
+
+# Train it
+clf.fit(x_train, y_train)
+
+# Test it 
+clf.score(x_test, y_test)
+# %%
+from sklearn.metrics import ConfusionMatrixDisplay
+import matplotlib.pyplot as plt
+ConfusionMatrixDisplay.from_estimator(
+        clf,
+        x_test,
+        y_test,
+        cmap=plt.cm.Blues
+    )
+
+# %%
