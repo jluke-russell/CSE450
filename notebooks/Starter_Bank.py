@@ -132,7 +132,7 @@ customer.value_counts()
 
 clf = RandomForestClassifier()
 
-features = ['euribor3m', 'nr.employed']
+features = ['euribor3m', 'emp.var.rate', 'nr.employed', 'cons.price.idx']
 X = pd.get_dummies(campaign[features])
 y = campaign['y']
 x_train, x_test, y_train, y_test = train_test_split(X_newer, y_newer, test_size = 0.2)
