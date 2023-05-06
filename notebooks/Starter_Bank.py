@@ -74,6 +74,7 @@ customer.value_counts()
 
 
 # %%
+campaign = pd.read_csv('https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank.csv')
 from sklearn.model_selection import train_test_split 
 from sklearn.tree import DecisionTreeClassifier
 x_train, x_test, y_train, y_test = train_test_split(X_new, y_new, test_size = 0.2, random_state = 420)
@@ -101,9 +102,20 @@ predictions = clf.predict(x_test)
 print(metrics.confusion_matrix(y_test, predictions))
 from sklearn.metrics import classification_report
 print(classification_report(y_test,predictions))
+
+
 # %%
+import pandas as pd
+import matplotlib.pyplot as plt
+
+campaign = pd.read_csv('https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank.csv')
+
+from sklearn.model_selection import train_test_split 
 from sklearn.ensemble import RandomForestClassifier
 from imblearn.over_sampling import RandomOverSampler
+from sklearn.metrics import classification_report
+from sklearn.metrics import ConfusionMatrixDisplay
+
 ro = RandomOverSampler()
 features = ['euribor3m', 'nr.employed']
 X = campaign[features]
@@ -115,14 +127,15 @@ X_newer, y_newer = ro.fit_resample(X, y)
 
 # Convert this to a dataframe and check the counts, now they're equal, because
 # we have a bunch of duplicate survivors
-customer = pd.DataFrame(y_new)
+customer = pd.DataFrame(y_newer)
+customer.value_counts()
 
 clf = RandomForestClassifier()
 
 features = ['euribor3m', 'nr.employed']
-X = campaign[features]
+X = pd.get_dummies(campaign[features])
 y = campaign['y']
-x_train, x_test, y_train, y_test = train_test_split(X_newer, y_newer, test_size = 0.2, random_state = 420)
+x_train, x_test, y_train, y_test = train_test_split(X_newer, y_newer, test_size = 0.2)
 clf.fit(x_train, y_train)
 y_pred = clf.predict(x_test)
 print(y_pred)
