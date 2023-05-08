@@ -117,7 +117,7 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import ConfusionMatrixDisplay
 
 ro = RandomOverSampler()
-features = ['euribor3m', 'nr.employed']
+features = ['euribor3m', 'emp.var.rate', 'nr.employed', 'cons.price.idx']
 X = campaign[features]
 y = campaign['y']
 
