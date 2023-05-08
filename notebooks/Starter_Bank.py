@@ -148,6 +148,27 @@ ConfusionMatrixDisplay.from_estimator(
         y_test,
         cmap=plt.cm.Blues
     )
+
+
+#%%
+import altair as alt 
+# explore other features and chatacteristics of people 
+
+# create the scatter plot
+scatter = alt.Chart(campaign).mark_bar().encode(
+    x='month',
+    y='nr.employed',
+    color = 'y'
+)
+
+# show the plot
+scatter
+
+
+
+
+
+
 # %%
 import pandas as pd
 import matplotlib.pyplot as plt
