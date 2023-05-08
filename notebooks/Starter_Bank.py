@@ -149,3 +149,44 @@ ConfusionMatrixDisplay.from_estimator(
         cmap=plt.cm.Blues
     )
 # %%
+import pandas as pd
+import matplotlib.pyplot as plt
+
+my_test = pd.read_csv('https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank_holdout_test_mini.csv')
+
+from sklearn.model_selection import train_test_split 
+from sklearn.ensemble import RandomForestClassifier
+from imblearn.over_sampling import RandomOverSampler
+from sklearn.metrics import classification_report
+from sklearn.metrics import ConfusionMatrixDisplay
+
+ro = RandomOverSampler()
+features = ['euribor3m', 'emp.var.rate', 'nr.employed', 'cons.price.idx']
+X = my_test[features]
+
+# Oversample, note that we oversample X and y at the same time in order to 
+# make sure our features and targets stay synched.
+X_newer, y_newer = ro.fit_resample(X, y)
+
+# Convert this to a dataframe and check the counts, now they're equal, because
+# we have a bunch of duplicate survivors
+customer = pd.DataFrame(y_newer)
+customer.value_counts()
+
+clf = RandomForestClassifier()
+
+features = ['euribor3m', 'emp.var.rate', 'nr.employed', 'cons.price.idx']
+X = pd.get_dummies(my_test[features])
+clf.fit(x_train, y_train)
+y_pred = clf.predict(x_test)
+print(y_pred)
+predictions = clf.predict(x_test)
+print(classification_report(y_test,predictions))
+
+ConfusionMatrixDisplay.from_estimator(
+        clf,
+        x_test,
+        y_test,
+        cmap=plt.cm.Blues
+    )
+# %%
