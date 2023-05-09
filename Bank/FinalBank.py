@@ -131,6 +131,21 @@ features = ['age', 'job', 'marital', 'education', 'housing', 'loan', 'contact', 
 
 bank = fix_data(bank, False, features, allFeatures)
 
+
+# %%
+import seaborn as sns
+# correlation matrix helps us see what features are related and by how much. 
+corr_matrix = bank.corr()
+
+# visualize the correlation matrix
+fig, ax = plt.subplots(figsize=(20, 18))
+hm = sns.heatmap(corr_matrix, annot=True)
+hm.set_title("Correlation Heatmap of Campaign Data")
+plt.show()
+
+
+# %% 
+
 X = bank[features]
 y = bank['y']
 
@@ -157,8 +172,6 @@ clf.score(X_test, y_test)
 y_pred = clf.predict(X_test)
 print(classification_report(y_test, y_pred))
 
-#%%
-
 ConfusionMatrixDisplay.from_estimator(
         clf,
         X_test,
@@ -166,14 +179,15 @@ ConfusionMatrixDisplay.from_estimator(
         cmap=plt.cm.Blues
     )
 
-# %%
-import seaborn as sns
-# correlation matrix helps us see what features are related and by how much. 
-corr_matrix = bank.corr()
 
-# visualize the correlation matrix
-fig, ax = plt.subplots(figsize=(20, 18))
-hm = sns.heatmap(corr_matrix, annot=True)
-hm.set_title("Correlation Heatmap of Campaign Data")
-plt.show()
+# %%
+from sklearn.metrics import classification_report
+
+holdout = pd.read_csv('https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank_holdout_test.csv')
+
+holdout = fix_data(holdout, False, features, allFeatures)
+
+holdout_predictions = clf.predict(holdout)
+df_predictions = pd.DataFrame(holdout_predictions, columns=['y'])
+df_predictions.to_csv('predictions.csv', index=False)
 # %%
