@@ -211,3 +211,5 @@ ConfusionMatrixDisplay.from_estimator(
         y_test,
         cmap=plt.cm.Blues
     )
+
+# %%
