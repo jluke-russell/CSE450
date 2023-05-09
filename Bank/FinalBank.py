@@ -125,9 +125,9 @@ allFeatures = ['age', 'job', 'marital', 'education', 'default', 'housing', 'loan
                'campaign', 'pdays', 'previous', 'poutcome', 'emp.var.rate', 'cons.price.idx', 'cons.conf.idx',
                'euribor3m', 'nr.employed']
 
-features = ['age', 'job', 'marital', 'education', 'housing', 'loan', 'contact', 'month', 'day_of_week',
-            'campaign', 'pdays', 'previous', 'poutcome', 'emp.var.rate', 'cons.price.idx', 'cons.conf.idx', 'euribor3m',
-            'nr.employed']
+features = ['age', 'job', 'marital', 'contact', 'month', 'day_of_week',
+               'campaign', 'pdays', 'previous', 'poutcome', 'emp.var.rate', 'cons.price.idx', 'cons.conf.idx',
+               'euribor3m', 'nr.employed']
 
 bank = fix_data(bank, False, features, allFeatures)
 
@@ -162,7 +162,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.30)
 # clf = DecisionTreeClassifier(max_depth=4, criterion='entropy')
 # random forest
 
-clf = RandomForestClassifier(max_depth=30, random_state=42, criterion='entropy', n_estimators=100)
+clf = RandomForestClassifier(max_depth=15, random_state=420, n_estimators=50)
 
 clf.fit(X_train, y_train)
 
