@@ -1,0 +1,116 @@
+TEAMMATES Proof of Submission
+1683765555390::20230510183939-0600
+==============================
+Submitted by: Luke [rus20019@byui.edu]
+Course: CSE450-02_Allred_Spring2023
+Session: Module2 - Bank Dataset, Decision Trees
+
+
+
+1: What are the top 2 contributions that YOU made to your team? (Your answers to this question will only be visible to the instructor.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoI_l8IUJDA
+a0d8ae03b3ebb29db8cbce1f52d84239
+> rus20019@byui.edu
+For this project I contributed to building the actual machine learning model itself by identifying the best features to use. The second thing I mainly contributed to was the overall formation of the final product. I put all our code into the collab file and created and uploaded the predictions.csv. 
+
+
+2: According to the evaluation scale, how would you rate YOUR OWN overall performance on this module? (Your answer to this question will only be visible to the instructor.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoNfOn5oJDA
+f8420726a1bbb3fb84432dbfebfde728
+> rus20019@byui.edu
+4: All Requirements Met
+
+
+3: (A) Give your explanation for the score in the previous question. Also, if you felt you did "above and beyond," tell me why. 
+(B) Give some constructive feedback for yourself and a suggestion of how to improve moving forward. 
+(Your answers to this question will only be visible to the instructor.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoM-hzo4JDA
+031512f5f614df8d1b62028fa9d5130a
+> rus20019@byui.edu
+This first project was tough, I got sick for about half the time we were working on this so there were a couple of days when I did not contribute too much. After recovering I was able to fully participate and help my team finish everything on time and get a good result too. I could definitely spend a little more time on data exploration. This would have helped me contribute to the conclusion section of our summary. I did focus more on the model and the results of the model and my other teammates focused on the data exploration, but I think we could have balanced it out a bit more. 
+
+
+4: According to the evaluation scale, how would you rate YOUR TEAM’s overall performance on this module? (Answer will be shared anonymously with your whole team.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoI-2nJwJDA
+97ec097d7257d0593010041476535c09
+> 1
+4: All Requirements Met
+
+
+5: Give an explanation for the score that you gave to your whole team in the previous question. Also, if you felt your team went "above and beyond," tell me why. (Answer will be shared anonymously with your whole team.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoM_YzJAJDA
+dbebb10d7016d77ac5ca9ac24cef3d3e
+> 1
+This being our first project together I think we met the requirements for sure. We worked really well together each team member playing to their strengths and doing good jobs on the things they worked on. I think our performance in the results shown in class is proof of that too.
+
+
+6: Is there anything about your team dynamic or teammates that you want to let Brother Allred know about confidentially? (Response is confidential and will only be shown to the instructor. Your team members will not see your answer to this question.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoLeo65cJDA
+84c74732fd34f7bc2925322a0a4e3c80
+> 1
+Nope, all good 
+
+
+7: What contributions did your team members make? (Response will be shown anonymously to each team member.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoPey3pMJDA
+10efededf14f259defb8c30da72fd5ca
+> nor21009@byui.edu
+Wrote majority of the background segment of the executive summary.Coding for the machine learning model  
+> pop17004@byui.edu
+Built tables and visuals using coding results Wrote the results section 
+> yan20012@byui.edu
+Helped create the visuals for the data exploration and questions from clientWrote the results section   
+> cha19057@byui.edu
+coding for the data wrangling and over sampling for the modelWriting for the methodology section 
+> tan20011@byui.edu
+Great visuals for the data analysis and for answering questionsWrting for the methodology section 
+
+
+8: According to the evaluation scale, rate the performance of each member of your team. Also include a suggestion for how they can improve moving forward. (Response will be shown anonymously with the corresponding teammate.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoLfJ5p0JDA
+7577fc7c7fc9de201dc13487a95c5966
+> nor21009@byui.edu
+4: thank you for you help on the code, it helped us get the results we did. great job on the background section of the summary too.
+> pop17004@byui.edu
+4: I really liked your conclusions section and how our findings were presented in great detail. Also the table with our model results was very useful too. 
+> yan20012@byui.edu
+4: great work on the visualizations and the write up, it really brought together the ideas we had. The conclusions section was well written too. 
+> cha19057@byui.edu
+4: team lead, great work keeping us on track and assigning us tasks to do outside of class so we had things to work with when we met again. 
+> tan20011@byui.edu
+4: great job turning my poor attempts at decribing visuals into a reality. Good work on the methods section as well, it captured the essense of what we did. 
+
+
+9: Out of all the work to make your Executive Summary, provide your best guess as to what percentage of the work was done by each team member:
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoNfHn4oJDA
+5b7dacbd9e724369d1b08c7ad31c0e15
+> nor21009@byui.edu
+17
+> pop17004@byui.edu
+17
+> yan20012@byui.edu
+17
+> cha19057@byui.edu
+16
+> tan20011@byui.edu
+17
+> rus20019@byui.edu
+16
+
+
+10: Out of all the work coding, provide your best guess as to what percentage of the work was done by each team member (include all effort to code, even if that code didn't end up in your final model):
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoLfzlIoJDA
+5a7f4c792fa36eb16cb17dbd1b485081
+> nor21009@byui.edu
+17
+> pop17004@byui.edu
+16
+> yan20012@byui.edu
+16
+> cha19057@byui.edu
+17
+> tan20011@byui.edu
+17
+> rus20019@byui.edu
+17
+
