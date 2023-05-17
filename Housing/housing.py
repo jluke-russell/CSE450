@@ -26,7 +26,13 @@ hm = sns.heatmap(corr_matrix, annot=True)
 hm.set_title("Correlation Heatmap of Housing Data")
 plt.show()
 
+# %%
+housing['renovated_dichotomous'] = housing['yr_renovated'].apply(lambda x: 0 if x == 0 else 1)
 
+housing['quality_opinion'] = ((housing['view'] + housing['condition'] + housing['grade']) / (4 + 5 + 13))
+housing['quality_opinion'].tail(20)
+
+housing.head()
 # %%
 #average housing price: 539436.71295
 average_price = housing['price'].mean()
