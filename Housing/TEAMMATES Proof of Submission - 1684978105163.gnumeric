@@ -1,0 +1,116 @@
+TEAMMATES Proof of Submission
+1684978105163::20230524192816-0600
+==============================
+Submitted by: Luke [rus20019@byui.edu]
+Course: CSE450-02_Allred_Spring2023
+Session: Module3 - Housing Dataset, Gradient Boosted Trees
+
+
+
+1: What are the top 2 contributions that YOU made to your team? (Your answers to this question will only be visible to the instructor.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoK-fsoELDA
+d56e1733de88018196a87e5cf70f448b
+> rus20019@byui.edu
+My main contributions were data exploration and visualization creation, along with coming up with two new features we added to for the model. 
+
+
+2: According to the evaluation scale, how would you rate YOUR OWN overall performance on this module? (Your answer to this question will only be visible to the instructor.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoM-5gZYJDA
+efc2736b940a78785f70f0f81f33cd3c
+> rus20019@byui.edu
+3: Slightly Deficient
+
+
+3: (A) Give your explanation for the score in the previous question. Also, if you felt you did "above and beyond," tell me why. 
+(B) Give some constructive feedback for yourself and a suggestion of how to improve moving forward. 
+(Your answers to this question will only be visible to the instructor.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoO-cjJEJDA
+991e2434bc20d267348b8f37664dd8e8
+> rus20019@byui.edu
+Although I did a good amount of work going over the data and assisting with feature engineering and the executive summary, I did not do as much coding as I should have. Some may say that I did enough, but I don't think I carried enough of the coding load. 
+
+
+4: According to the evaluation scale, how would you rate YOUR TEAM’s overall performance on this module? (Answer will be shared anonymously with your whole team.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoPfL-ZEJDA
+a1e5b67cb0c28ff03d531f49feb27144
+> 1
+5: Above and Beyond
+
+
+5: Give an explanation for the score that you gave to your whole team in the previous question. Also, if you felt your team went "above and beyond," tell me why. (Answer will be shared anonymously with your whole team.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoK-_hIcJDA
+752bec1c2a5dbb9ea38ce5cb4a881398
+> 1
+The team overall did very well and as we came closer together, we found ways to go above and beyond on this project. First off with the feature engineering, we did not need to implement any of it, but we chose to. Another thing was using outside data. We created a feature that pulled median income data from the census in order to answer the questions posed to us. 
+
+
+6: Is there anything about your team dynamic or teammates that you want to let Brother Allred know about confidentially? (Response is confidential and will only be shown to the instructor. Your team members will not see your answer to this question.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoI_i2ZYJDA
+4ace7f3609859dff43595776d759c0bc
+> 1
+Nope, we're doing great! 
+
+
+7: What contributions did your team members make? (Response will be shown anonymously to each team member.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoO-nu5IJDA
+c0ea2e65c91e5fa69418af31ae4055b2
+> nor21009@byui.edu
+Team lead: kept us on track for sure with accoutability checks each time we met.  Created features and worked on model code
+> pop17004@byui.edu
+Created new features  Authored background/summary 
+> yan20012@byui.edu
+Created the model and various features  Added visuals to answer questions 
+> cha19057@byui.edu
+Wrote Q&A and results sections  Created features and helped with data wrangling
+> tan20011@byui.edu
+Created visuals for Q&A section  Wrote Q&A and results sections 
+
+
+8: According to the evaluation scale, rate the performance of each member of your team. Also include a suggestion for how they can improve moving forward. (Response will be shown anonymously with the corresponding teammate.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoK_D0p4JDA
+18c4544a86c7ed133ecf20e56250ca3d
+> nor21009@byui.edu
+4: Produced our vanilla model we could check agaist, was our main line of defense when it came to ensuring that our features and model would work on data without the prices. Thanks for your help with the Methods section and editing. 
+> pop17004@byui.edu
+4: Wonderful job with the feature engineering! you were able to capture the essense of what I was thinking about and turn it into something useful. Great job with the background too! 
+> yan20012@byui.edu
+5: Great job building an amazing model using all our features and went above to incorperate data not within our data set to create a feature of her own. Good work on the background section. 
+> cha19057@byui.edu
+4: Great job with the coding and the writing on the results sections, very good job wrapping up our thoughts. 
+> tan20011@byui.edu
+4: Great work with the Q&A and visuals that went with it. The insights were spot on. 
+
+
+9: Out of all the work to make your Executive Summary, provide your best guess as to what percentage of the work was done by each team member:
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoI-gjKgJDA
+2ba639b2fe64d9b4bf2383f9e18b1316
+> nor21009@byui.edu
+17
+> pop17004@byui.edu
+17
+> yan20012@byui.edu
+17
+> cha19057@byui.edu
+16
+> tan20011@byui.edu
+17
+> rus20019@byui.edu
+16
+
+
+10: Out of all the work coding, provide your best guess as to what percentage of the work was done by each team member (include all effort to code, even if that code didn't end up in your final model):
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoPfp8YcJDA
+11a44bbad9724d0cfb52fab21b7524f1
+> nor21009@byui.edu
+17
+> pop17004@byui.edu
+16
+> yan20012@byui.edu
+19
+> cha19057@byui.edu
+16
+> tan20011@byui.edu
+17
+> rus20019@byui.edu
+15
+
