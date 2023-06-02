@@ -17,3 +17,4 @@
 - windspeed: Wind speed.
 - casual: count of casual users 
 - registered: count of registered users 
+- total_users: sum of casual and registered (Target)
