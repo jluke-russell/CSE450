@@ -17,6 +17,8 @@ bikes.head()
 # %%
 # Create features
 
+
+
 # %%
 X = bikes[['season','hr','holiday','workingday','weathersit','hum','windspeed','temp_c','feels_like_c']]
 y = bikes['total']
@@ -26,6 +28,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = .3, random
 minmax_scaler = preprocessing.MinMaxScaler()
 X_train = minmax_scaler.fit_transform(X_train) # fit the scale to the training data
 X_test = minmax_scaler.transform(X_test) # use the same scale on the testing data
+
 # %%
 # Initialize the Neural Network
 model = Sequential() # Sequential just means the network doesn't have loops--the outputs of one layer of neurons go to the next layer of neurons
@@ -43,6 +46,7 @@ model.add(Dense(1, activation='linear')) # Our last layer doesn't need a non-lin
 
 # Compile model
 model.compile(loss='MSE', optimizer= 'Adam', metrics=['mean_squared_error'])
+
 # %%
 history = model.fit(X_train, y_train, validation_data = (X_test, y_test), epochs = 300, verbose = 0)
 
