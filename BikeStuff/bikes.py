@@ -44,3 +44,19 @@ model.add(Dense(1, activation='linear')) # Our last layer doesn't need a non-lin
 # Compile model
 model.compile(loss='MSE', optimizer= 'Adam', metrics=['mean_squared_error'])
 # %%
+history = model.fit(X_train, y_train, validation_data = (X_test, y_test), epochs = 300, verbose = 0)
+
+# Evaluate the model on the training data
+_, train_mse = model.evaluate(X_train, y_train, verbose = 1)
+
+# Evaluate the model on the testing data
+_, test_mse = model.evaluate(X_test, y_test, verbose = 1)
+
+# Get predictions for the testing data
+predictions = model.predict(X_test)
+
+# Get the r^2
+from sklearn.metrics import r2_score
+r2 = r2_score(y_test, predictions)
+print(r2)
+# %%
