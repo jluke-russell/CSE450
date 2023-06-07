@@ -34,8 +34,8 @@ X_test = minmax_scaler.transform(X_test) # use the same scale on the testing dat
 model = Sequential() # Sequential just means the network doesn't have loops--the outputs of one layer of neurons go to the next layer of neurons
 
 # Add the first layer
-model.add(Dense(16, input_dim=12, activation='relu')) # This layer has 16 neurons. They are each connected (dense) to the input neurons.
-# Note: We want the input dimension to match the number of features at our input layer
+model.add(Dense(16, input_dim=9, activation='relu')) # This layer has 16 neurons. They are each connected (dense) to the input neurons.
+# Note: We need the input dimension to match the number of features at our input layer
 
 # Add another "hidden layer"
 model.add(Dense(8, activation = 'relu')) # This layer has 8 neurons
