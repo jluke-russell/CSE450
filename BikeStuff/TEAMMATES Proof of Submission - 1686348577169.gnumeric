@@ -1,0 +1,116 @@
+TEAMMATES Proof of Submission
+1686348577169::20230609160916-0600
+==============================
+Submitted by: Luke [rus20019@byui.edu]
+Course: CSE450-02_Allred_Spring2023
+Session: Module 4 - Biking Dataset - Neural Networks
+
+
+
+1: What are the top 2 contributions that YOU made to your team? (Your answers to this question will only be visible to the instructor.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoO_xtY8JDA
+ee7adc5ee33cb0ac3a1e6e74a81cd6f7
+> rus20019@byui.edu
+First was creating the vanilla model to compare our true model against.  Second was data visualtion and exploration for the results and Q&A section. 
+
+
+2: According to the evaluation scale, how would you rate YOUR OWN overall performance on this module? (Your answer to this question will only be visible to the instructor.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoJ_Ai5oJDA
+bd95d966ac331bf5a28add5cc16974c7
+> rus20019@byui.edu
+4: All Requirements Met
+
+
+3: (A) Give your explanation for the score in the previous question. Also, if you felt you did "above and beyond," tell me why. 
+(B) Give some constructive feedback for yourself and a suggestion of how to improve moving forward. 
+(Your answers to this question will only be visible to the instructor.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoJ_A2oMLDA
+ef8d9d025112137cb48f5983caebed09
+> rus20019@byui.edu
+I did more programming work this time as a follow up to my feedback to myself from the last project. I feel like my coding helped in the design of the overall model because I explored the early stopping which helped prevent overfitting. I think I could've put a little more effort into the executive summary by proofreading other sections. 
+
+
+4: According to the evaluation scale, how would you rate YOUR TEAM’s overall performance on this module? (Answer will be shared anonymously with your whole team.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoJ_P0ooJDA
+2418338c4ac6f819fb8ccd542920367e
+> 1
+4: All Requirements Met
+
+
+5: Give an explanation for the score that you gave to your whole team in the previous question. Also, if you felt your team went "above and beyond," tell me why. (Answer will be shared anonymously with your whole team.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoO_ytJMJDA
+e1f407f02037124f0bf7004b2e624b39
+> 1
+We continue to work well as a team even though we did not quite get the results we wanted. Burnout may have been a contributor to our poor results, but not to our overall work. 
+
+
+6: Is there anything about your team dynamic or teammates that you want to let Brother Allred know about confidentially? (Response is confidential and will only be shown to the instructor. Your team members will not see your answer to this question.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoL_I4IMJDA
+59b31c0463507779cedb33201eddd89a
+> 1
+All good still. 
+
+
+7: What contributions did your team members make? (Response will be shown anonymously to each team member.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoN-09pMJDA
+07f38fcff29c9743a86811ec5c67e710
+> nor21009@byui.edu
+Writing the results & findings section Assisited in model creation 
+> pop17004@byui.edu
+Q&A section and introduction. Feature engineering and data exploration 
+> yan20012@byui.edu
+Created new features that contributed to the model Introduction for executive summary & visuals for Q&A
+> cha19057@byui.edu
+Created final model for presentation Methods section 
+> tan20011@byui.edu
+Methods & Q&A sections Recoding of feature for another comparison model 
+
+
+8: According to the evaluation scale, rate the performance of each member of your team. Also include a suggestion for how they can improve moving forward. (Response will be shown anonymously with the corresponding teammate.)
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoL_I4IMLDA
+a8d81b3dbecde88b1ed4878efc498a6c
+> nor21009@byui.edu
+4: Great job on the results section as well as helping with the coding when we did not understand certain aspects. 
+> pop17004@byui.edu
+4: Creative ideas for the Q&A as well as the data exploration. Great work on the summary too.
+> yan20012@byui.edu
+4: Great work creating a model we could build off of. Also your work on the Q&A section along with the visuals were a huge part of the project. 
+> cha19057@byui.edu
+4: Model maker, took ideas from everyone's models and made the best one possible. Great work on the methods section.  
+> tan20011@byui.edu
+4: team leader kept us on track and accountable for what we were working on. Thanks for one-hot-encoding everything for us, it was vital to the creation of the final model. Great work on the methods section. 
+
+
+9: Out of all the work to make your Executive Summary, provide your best guess as to what percentage of the work was done by each team member:
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoM_NpYwJDA
+4df6dcf7a89b6125a77fe7cf519209be
+> nor21009@byui.edu
+17
+> pop17004@byui.edu
+17
+> yan20012@byui.edu
+17
+> cha19057@byui.edu
+16
+> tan20011@byui.edu
+17
+> rus20019@byui.edu
+16
+
+
+10: Out of all the work coding, provide your best guess as to what percentage of the work was done by each team member (include all effort to code, even if that code didn't end up in your final model):
+ag1zfnRlYW1tYXRlc3Y0ch0LEhBGZWVkYmFja1F1ZXN0aW9uGICAoJ_PjpsJDA
+a5ded224342802293589fe85041ec018
+> nor21009@byui.edu
+16
+> pop17004@byui.edu
+16
+> yan20012@byui.edu
+17
+> cha19057@byui.edu
+17
+> tan20011@byui.edu
+17
+> rus20019@byui.edu
+17
+
